@@ -1,0 +1,16 @@
+services:
+  web:
+    platform: linux/x86_64
+    image: garyclarke/php-framework-web
+    volumes:
+      - ./public:/var/www/html/public
+    ports:
+      - "8005:80"
+
+  app:
+    platform: linux/x86_64
+    image: garyclarke/php-framework-app
+    volumes:
+      - .:/var/www/html
+    extra_hosts:
+      - host.docker.internal:host-gateway

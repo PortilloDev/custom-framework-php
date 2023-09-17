@@ -1,0 +1,31 @@
+{
+  "name": "ivanportillo/framework-php",
+  "description": "description",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Portillo",
+      "email": "ipp_1981@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "IvanPortillo\\framework\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IvanPortillo\\framework\\Tests": "tests/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "6.3.x-dev",
+    "phpunit/phpunit": "10.4.x-dev"
+  },
+  "require": {
+    "nikic/fast-route": "dev-master",
+    "psr/container": "2.0.x-dev"
+  }
+
+}
