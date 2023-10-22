@@ -16,7 +16,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "IvanPortillo\\framework\\Tests": "tests/"
+      "IvanPortillo\\framework\\Tests\\": "tests/"
     }
   },
   "require-dev": {

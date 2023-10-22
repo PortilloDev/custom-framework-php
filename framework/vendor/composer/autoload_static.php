@@ -28,6 +28,7 @@ class ComposerStaticInit15f6abe85b4958b36801669e022e9064
         ),
         'I' => 
         array (
+            'IvanPortillo\\framework\\Tests\\' => 29,
             'IvanPortillo\\framework\\' => 23,
         ),
         'F' => 
@@ -56,6 +57,10 @@ class ComposerStaticInit15f6abe85b4958b36801669e022e9064
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'IvanPortillo\\framework\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'IvanPortillo\\framework\\' => 
         array (
